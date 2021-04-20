@@ -35,7 +35,7 @@ const AddAdmin = () => {
             <input type="text" className="form-control w-50" id="email" {...register("email")} />
             {errors.name && <span className="text-danger">This field is required</span>}
 
-            <input className="btn btn-info mt-3" type="Add" />
+            <input className="btn btn-info mt-3" type="submit" value="Add" />
         </form>
         </div>
     );
