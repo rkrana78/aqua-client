@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+    .about-container img {
+        height: 300px;
+        width: 250px;
+    }
+}

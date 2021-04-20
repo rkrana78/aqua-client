@@ -1,0 +1,12 @@
+.bottle-container {
+   border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 30px 10px;
+    background: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+.bottle-container img {
+    height: 100px;
+}
