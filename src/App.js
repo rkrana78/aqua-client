@@ -22,6 +22,7 @@ import BookDashboard from './components/Dashboard/BookDashboard/BookDashboard';
 import Services from './components/Home/Services/Services';
 import About from './components/Home/About/About';
 import Footer from './components/Home/Footer/Footer';
+import MakeAdmin from './components/Dashboard/MakeAdmin/MakeAdmin';
 
 
 export const UserContext = createContext();
@@ -66,7 +67,7 @@ function App() {
             <ManageDashboard />
           </PrivateRoute>
           <PrivateRoute path="/addAdmin">
-            <AddAdmin />
+            <MakeAdmin />
           </PrivateRoute>
           <PrivateRoute path="/bookService/:id">
             <BookDashboard />
